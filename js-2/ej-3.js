@@ -1,9 +1,11 @@
 function maxIndex(array){ 
     if (array.length === 0)return -1;
     let indmax = 0;
+    let mayor=array[0];
 
     for (let i=1; i< array.length; i++){
-        if (array[i] > array[indmax]){
+        if (array[i] > mayor]){
+        mayor=array[i];    
         indmax= i;
         }
     }
