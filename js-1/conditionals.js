@@ -17,4 +17,13 @@ console.log(calcularColor(2));
 console.log(calcularColor(3)); 
 console.log(calcularColor(56)); 
 
+/*switch*/
+switch (num){
+    case 1: {
+        color = "Negro"
+    
+    }
+}
+
+
 
