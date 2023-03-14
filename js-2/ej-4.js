@@ -8,8 +8,6 @@ function join(array){
     }
          return str;
 }
-
-
 console.log(join(["Hola", "Mundo"])); 
 console.log(join(["Make", "It", "Real"])); 
 console.log(join([])); 
