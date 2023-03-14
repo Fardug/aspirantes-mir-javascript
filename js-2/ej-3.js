@@ -1,8 +1,7 @@
 function maxIndex(array){ 
-    if (array.length === 0){
-        return -1;
- }
- let indmax = 0;
+    if (array.length === 0)return -1;
+    let indmax = 0;
+
  for (let i=1; i< array.length; i++){
     if (array[i] > array[indmax]){
         indmax= i;

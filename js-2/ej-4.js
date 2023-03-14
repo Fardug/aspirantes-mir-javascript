@@ -1,7 +1,5 @@
 function join(array){
-    if (array.length === 0){
-        return '""';
-    }
+    if (array.length === 0) return '""';
      let str = "";
         for (let word of array){
         str += word + " ";

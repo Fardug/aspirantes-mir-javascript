@@ -1,9 +1,8 @@
 
 function sum(array){ 
-    if (array.length === 0){
-        return 0;
-    }
+    if (array.length === 0)return 0;
     let total =0;
+    
     for ( let num=0; num<array.length; num++ ){
         total += array[num];
     }
